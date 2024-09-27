@@ -280,25 +280,22 @@ th, td {
     text-align: left;
 }
   
-/* Estilo "cebra" alternando filas pares e impares */
 tbody tr:nth-child(odd) {
-    background-color: #f2f2f2; /* Color de fondo para filas impares */
+    background-color: #f2f2f2; 
 }
   
 tbody tr:nth-child(even) {
-    background-color: #dcdcdc; /* Color de fondo para filas pares */
+    background-color: #dcdcdc; 
 }
   
-/* Estilo para los encabezados de la tabla */
 th {
     background-color: black;
     color: white;
     font-weight: bold;
 }
   
-/* Botón de aplicar */
 .btn-aplicar {
-    background-color: #1c386d; /* Color de fondo del botón */
+    background-color: #1c386d; 
     color: white;
     text-decoration: none;
     padding: 5px 10px;
@@ -310,7 +307,7 @@ th {
 }
   
 .btn-aplicar:hover {
-    background-color: #2a4b8d; /* Color de fondo al hacer hover */
+    background-color: #2a4b8d; 
 }
   
 
@@ -408,22 +405,6 @@ input, select, datalist {
         margin-right: 10px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media only screen and (max-width: 768px) {
 	.grid {
