@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Bolsa de trabajo ESEN</title>
+	<link href="css/estilo.css" rel="stylesheet"/>
+</head>
+<body>
+	<header>
+		<div class="envoltorio">
+			<div class="logo">
+				<a href="index.html"><img src="images/logo2.png" title="logo" height="42px" /></a>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="../index.html">Inicio</a></li>
+					<li><a href="ofertas.html">Ofertas</a></li>
+					<li><a href="consejos.html">Consejos</a></li>
+					<li class="activo"><a href="aplicar.html">Aplicar</a></li>
+					<li><a href="#">Contacto</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<section>
+		<article class="ofertas">
+			<div class="envoltorio">
+				<table>
+					<tr><td>Nombre:</td><td><input type="text" name="nombre"/></td></tr>
+					<tr><td>Apellido:</td><td><input type="text" name="apellido"/></td></tr>
+					<tr><td>Carnet:</td><td><input type="text" name="carnet"/></td></tr>
+					<tr>
+					<td>Departamento:</td>
+						<td>
+							<input type="text" list="Departamento"/>
+								<datalist id="Departamento">
+									<option value="Ahuachapán">Ahuachapán</option>
+									<option value="Cabañas">Cabañas</option>
+									<option value="Chalatenango">Chalatenango</option>
+									<option value="La Libertad">La Libertad</option>
+									<option value="La Paz">La Paz</option>
+									<option value="Santa Ana">Santa Ana</option>
+									<option value="San Miguel">San Miguel</option>
+									<option value="San Salvador">San Salvador</option>
+									<option value="Sonsonate">Sonsonate</option>
+									<option value="Usulután">Usulután</option>
+									<option value="Morazán">Morazán</option>
+									<option value="Cuscatlán">Cuscatlán</option>
+									<option value="San Vicente">San Vicente</option>
+								</datalist>
+						</td>
+					</tr>
+					<tr><td>Edad:</td><td><input type="number" name="edad" min="18" max="50" /></td></tr>
+					<tr><td>Sexo:</td>
+					<td><input type="radio" name="Sexo" value="mas" checked>Masculino</BR>
+					<input type="radio" name="Sexo" value="fem">Femenino</td></tr>
+					<tr><td>Fecha de nacimiento:</td><td><input type="date" name="apellido"/></td></tr>	
+					<tr><td>Número de teléfono:</td><td><input type="num telefono" id="telefono" value="" pattern="^[0-9]{4}-?[0-9]{4}$" title="Solo se acepta números en el siguiente formato 2222-2222" class="control" placeholder="Número de teléfono" required/></td></tr><br />
+					<tr><td>Carrera:</td>
+						<td>
+							<input type="text" list="carrera"/>
+							<datalist id="carrera">
+								<option value="Ingeniería de Software y Negocios Digitales">Ingeniería de Software y Negocios Digitales</option>
+								<option value="Ingeniería de Negocios">Ingeniería de Negocios</opttion>
+								<option value="Licenciatura en Economía y Negocios">Licenciatura en Economía y Negocios</opttion>
+								<option value="Licenciatura en Ciencias Jurídicas">Licenciatura en Ciencias Jurídicas</opttion>
+							</datalist>
+						</td>
+					</tr>
+					<tr><td>Pretensión salarial:</td><td><input type="number" name="salario"></td></tr>
+				</table>
+				<button id="boton" type="submit">Crear Cuenta</button>
+			</div>
+		</article>
+		
+	</section>
+	<footer>
+		<p>Creado por: Colocar su nombre y numero de carnet</p>
+	</footer>
+</body>
+</html>
+
+

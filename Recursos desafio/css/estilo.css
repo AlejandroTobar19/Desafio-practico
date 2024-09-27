@@ -1,0 +1,448 @@
+/*ESTILOS PAGINA INDICE */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	
+}
+/*
+html{
+	background-color: white;
+}
+*/
+
+.logo {
+	float: left;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+
+.envoltorio {
+	overflow: hidden;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.envoltorio ul {
+	float: right;
+}
+
+header{
+	background-color: #1f3b4d;
+	color: white;
+	padding: 10px 0;
+	text-align: center;
+	height: 100%;
+	line-height: 75px;
+	align-items: center;
+	
+}
+
+nav li {
+	line-height: 2.5em;
+	display: inline-block;
+	margin: 0 10px;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: space-around;
+}
+
+nav li a{
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+}
+
+nav li a:hover {
+	background-color: #1c386d;
+	height: 75px;
+
+	
+}
+
+nav li ul{
+	display: none; 
+	position: absolute;
+	background-color: #1f3b4d;
+	width: 150px;
+}
+
+nav li:hover ul{
+	display: block;
+}
+
+nav li ul li a{
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	display: block;
+}
+
+nav li ul li a:hover{
+	background-color: #1c386d;
+}
+
+.logo img{
+	height: 42px;
+	margin: 0 auto;
+	display: flex;
+	float: left;
+}
+
+/*
+.activo{
+	background-color: #1c386d;
+}
+*/
+
+.contenedor-slider{
+	width: 100%;
+	overflow: hidden;
+}
+/*
+.contenedor-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 50%;
+}
+*/
+
+.contenedor-slider img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+section{
+	padding: 20px 0;
+	margin-top: 1px;
+}
+
+.intro h1 a{
+	text-decoration: none;
+	height: 40px;
+	color: white;
+	font-size: 75px;
+
+}
+
+.intro h1{
+	font-size: 3em;
+	margin-bottom: 20px;
+	color: white;
+	
+}
+
+.intro {
+	text-align: center;
+	background-color: #285191;
+	color: white;
+}
+
+.intro p{
+	font-size: 1.2em;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+.boton{
+	background-color:#1c386d;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 20px 20px;
+	height: 60px;
+	line-height: 60px;
+}
+
+/*
+.boton{
+	text-decoration: none;
+	margin-top: 100px;
+}
+*/
+
+.servicios{
+	margin-top: 20px;
+}
+
+.grid{
+	width: 30%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 10px;
+	border: 1px solid #ddd;
+	float: left;
+	margin-right: 17px;
+}
+
+.grid:nth-child(1),
+.grid:nth-child(3) {
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5) /* Sombra inferior */
+}
+
+.grid img{
+	width: 100%;
+	height: 0 auto;
+}
+
+.grid h3{
+	margin-top: 10px;
+	font-size: 24px;
+	color: #285191;
+	margin-bottom: 10px;
+}
+
+.grid p{
+	font-size: 16px;
+	line-height: 1.7;
+}
+
+.botoncito{
+	background-color:#1c386d;
+	color: white;
+	text-decoration: none;
+	font-size: 13px;
+	padding: 10px 20px;
+	height: 40px;
+	line-height: 40px;
+	text-transform: uppercase;
+}
+
+.testimonios{
+	background-color: whitesmoke;
+	/*padding: 20px 0;*/
+	text-align: center;
+}
+
+.testimonios-grid{
+	width: 70%;
+	margin: 0 auto;
+	padding: 20px;
+
+}
+
+.testimonios-grid h3{
+	font-size: 30px;
+	margin-bottom: 20px;
+	color: black;
+}
+
+.testimonios-grid p{
+	font-size: 15px;
+	line-height: 2;
+	text-align: left;
+}
+
+footer {
+	height: 50px;
+	color: white;
+	background: #365563;;
+	height: 50px;
+	line-height: 50px;
+}
+
+#boton{
+    background-color: #1c386d;
+    border-radius: 15px;
+    width: 150px;
+    height: 40px;
+    color: #fff;
+    font-family: Century Gothic;
+    margin-top: 3px;
+    margin-left: 185px;
+	float: right;
+}
+
+
+/*ESTILO OFERTAS*/
+
+/* Estilo básico de la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+  
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+  
+/* Estilo "cebra" alternando filas pares e impares */
+tbody tr:nth-child(odd) {
+    background-color: #f2f2f2; /* Color de fondo para filas impares */
+}
+  
+tbody tr:nth-child(even) {
+    background-color: #dcdcdc; /* Color de fondo para filas pares */
+}
+  
+/* Estilo para los encabezados de la tabla */
+th {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+  
+/* Botón de aplicar */
+.btn-aplicar {
+    background-color: #1c386d; /* Color de fondo del botón */
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+  
+.btn-aplicar:hover {
+    background-color: #2a4b8d; /* Color de fondo al hacer hover */
+}
+  
+
+.envoltorio {
+    width: 80%;
+    margin: 0 auto;
+}
+  
+  
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+  
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+  
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+  
+nav ul li.activo a {
+    font-weight: bold;
+}
+
+/*ESTILO FORMULARIO*/
+
+table {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+table tr td {
+    padding: 10px;
+    text-align: left;
+}
+
+table tr td input,
+table tr td select,
+table tr td datalist {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+table tr td input[type="radio"] {
+    width: auto;
+    margin-right: 10px;
+}
+
+footer {
+    background-color: #1c386d;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+input, select, datalist {
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+    header .envoltorio {
+        flex-direction: column;
+    }
+
+    table {
+        width: 90%;
+    }
+
+    header nav ul li {
+        margin-right: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+	.grid {
+		width: 100%;
+		float: none;
+	}
+
+	nav ul {
+		display: block;
+		text-align: center;
+	}
+
+	nav li {
+		display: block;
+		margin-bottom: 10px;
+	}
+
+	.testimonios-grid {
+		width: 90%;
+	}
+}
+
